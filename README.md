@@ -1,3 +1,6 @@
+# 📅 Calendar Task Manager
+> A clean and minimal calendar app built with React + Vite
+
 # Calendar With Notes 
 This is a calendar web app that allows users to create, edit, and manage tasks for specific dates.It is basically only frontend project means every notes is saving and deleting in localstorage only.
 
@@ -30,9 +33,10 @@ This is a calendar web app that allows users to create, edit, and manage tasks f
 
 ## Screenshots
 ![App Screenshot](./src/assets/app.png)
-![Video](./src/assets/videoWebsite.mp4)
+Video Link - https://drive.google.com/file/d/1OOWYtPtwmxi6KDy7clEJAHsRfkf91bhS/view?usp=sharing
 
 ## Folder Structure
+```
 src/
 ├── assets/ # Images, icons, static files
 ├── components/ # UI Components
@@ -50,7 +54,7 @@ src/
 ├── App.css # App styles
 ├── index.css # Global styles
 └── main.jsx # Entry point
-
+```
 ## Usage
 - Select a date
 - Add a task
