@@ -1,16 +1,60 @@
-# React + Vite
+# Calendar With Notes 
+This is a calendar web app that allows users to create, edit, and manage tasks for specific dates.It is basically only frontend project means every notes is saving and deleting in localstorage only.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Add tasks by date or you can add it for specific range
+- Save the tasks and you can also delete the tasks.
+- Notes support
+- Local storage saving
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- JavaScript
+- TailwindCSS
+- LocalStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   git clone https://github.com/ututkarsh22/Calendar_Notes.git
 
-## Expanding the ESLint configuration
+2. Go to project folder:
+   cd Calendar_Notes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies:
+   npm install
+
+4. Start the app:
+   npm start
+
+## Screenshots
+![App Screenshot](https://your-image-url.com)
+
+## Folder Structure
+src/
+├── assets/ # Images, icons, static files
+├── components/ # UI Components
+│ ├── Calendar.jsx
+│ ├── ImageHero.jsx
+│ └── NotesPanel.jsx
+│
+├── constants/ # Static data
+│ └── calendarData.js
+│
+├── utils/ # Helper functions
+│ └── calendarHelper.js
+│
+├── App.jsx # Main App component
+├── App.css # App styles
+├── index.css # Global styles
+└── main.jsx # Entry point
+
+## Usage
+- Select a date
+- Add a task
+- Save it
+- Tasks will persist using local storage
+
+## License
+This project is licensed under the MIT License.
