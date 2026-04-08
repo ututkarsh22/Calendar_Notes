@@ -29,7 +29,7 @@ This is a calendar web app that allows users to create, edit, and manage tasks f
    npm start
 
 ## Screenshots
-![App Screenshot](https://your-image-url.com)
+![App Screenshot](../TakeYouForward/src/assets/app.png)
 
 ## Folder Structure
 src/
