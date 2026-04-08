@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ImageHero  from "./components/ImageHero.jsx";
 import Calendar from "./components/Calendar.jsx";
 import NotesPanel   from "./components/NotesPanel.jsx";
